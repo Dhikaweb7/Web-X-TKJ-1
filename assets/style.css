@@ -1,7 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Lato:wght@700&family=Poppins:wght@600&display=swap');
 .main {background: rgb(2,0,36);
        backgroundd: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(40,40,168,1) 35%, rgba(0,212,255,1) 100%);
-}
        
+}
+.texteditor {background-color:#2e2e2e;
+}
+.komen {color:#797979;
+}
+.putih {color: #d6d6d6;
+}
+.kuning {color:#e5b567;
+}
+.hijau {color: #b4d273;
+}
+.oren {color:#e87d3e;
+}
+.ungu {color:#9e86c8;
+}
+.tia {color: #b05279;
+}
+.biru {color:#6c99bb;
+}
+.kotak {font-family: Sans-Serif;
+}
+.content {font-family: 'Poppins', sans-serif;
+          font-size:1rem;
+}
+
+}
+.style1 {color:#dd0000;
+}
+.style2 {color:#001dff;
+}
 .glass {background:
 rgba( 255, 255, 255, 0.05 );
 box-shadow:
@@ -21,4 +51,54 @@ border:
            color:white;
            text-decoration: none;
 }
-           
+.arp-t2b button{width:120px;font-size:14px;height:auto;margin:10px;border:none;padding:10px 12px;background-
+color:#8775f5;border-radius:3px;color:#fefefe;transition:all .3s;}
+.arp-t2b button:hover{opacity:0.7;transition:all .3s;cursor:pointer;}
+.arp-t2b .TxtArea{width:100%;color:#797979;border:1px solid #dcdcdc;padding:15px;border-top-left-radius:5px;border-top-right-radius:5px;font-size:15px;outline:none;border-bottom:none;resize:none;}
+.drkM .arp-t2b .TxtArea{background-color:#252526;}
+.copyButton{position:relative;}
+.copyButton.active{background:#061A40;}
+.Btn-s{background:#f3f3f3;width:100%;padding:21px;margin-top:-4px;border-bottom-left-radius:7px;border-bottom-right-radius:7px;border:1px solid #dcdcdc;border-top:none;}
+.drkM .Btn-s{border-color:rgba(255,255,255,.1);background-color:#2d2d30;}
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    }
+.calculator-grid > button {
+      cursor: pointer;
+      font-size: 2rem;
+      border: 1px, solid #FFFFFF;
+      outline: none;
+      background-color: rbga(255, 255, 255, 0.75);
+    }
+.calculator-grid > button:hover {
+        background-color: #a9a9a9;
+      }
+.span-two {
+        grid-column: span 2;
+        color: #adf802;
+        background-color: rgba(139, 0, 139, 0.8);
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}       
